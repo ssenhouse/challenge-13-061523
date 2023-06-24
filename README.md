@@ -1,6 +1,6 @@
 # *challenge-13-061523*
 ---
-# Repository for Challenge 13 Fin Tech BootCam
+# Repository for Challenge 13 Fin Tech BootCamp
 ## Venture Funding with Deep Learning
 ---
 ![image for challenge 13](/Starter_Code/images/13-4-challenge-image.png)
