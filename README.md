@@ -18,8 +18,31 @@ All three models run achieved an accuracy between 70 - 74% after running. The co
 Original Model 
 
         * Used all columns from the data set
-        * Had 2 hidden layers to model
+        * Used 2 hidden layers to model
+        * Used 'relu' as the activation function and 'sigmoid' as the output function
+
+![originalmodel](/Starter_Code/images/originalmodel.png)
+
+Results show that the Accuracy = 72.85% and Loss = 55.26% 
+        
+Alternate Model 1
+
+        * Used all of the columns from the data set
+        * Used 4 hidden layers to model
         * Used 'relu' as the activation function and 'sigmoid' as the output function
         
+![alternatemodel1](/Starter_Code/images/alternatemodel1.png)
 
-     
+Results show that Accuracy = and Loss =
+
+Alternate Model 2
+
+        * Used some of the columns from the original dataframe. Eliminated(Classification, Application_Type, Status, Special Considerations)
+        * Used 2 hidden layers to model
+        * Used 'relu' as the activation function and 'sigmoid' as the output function
+        
+    Note: Columns were eliminated because these columns had either a lot of unique values, or they had only 2 unique values which is similar to our output variable. 
+    ![table showing unique values](/Starter_Code/images/tableofvaluesincolumns.png)
+    
+## Summary
+Results from these models are very similar in accuracy ranging from 70% - 73%. The Alternate Model 2 which has the least number of categorical variables, and the lowest accuracy at 70%. Howeve may prove to beneficial as it provides a simplier explanation as to what are the predictable factors in successful business.
