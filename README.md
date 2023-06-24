@@ -39,10 +39,11 @@ Alternate Model 2
 
         * Used some of the columns from the original dataframe. Eliminated(Classification, Application_Type, Status, Special Considerations)
         * Used 2 hidden layers to model
-        * Used 'relu' as the activation function and 'sigmoid' as the output function
-        
-    Note: Columns were eliminated because these columns had either a lot of unique values, or they had only 2 unique values which is similar to our output variable. 
-    ![table showing unique values](/Starter_Code/images/tableofvaluesincolumns.png)
-    
+        * Used 'relu' as the activation function and 'sigmoid' as the output function 
+     
+![table showing unique values](/Starter_Code/images/tableofvaluesincolumns.png)
+
+Note: Columns were eliminated because these columns had either a lot of unique values, or they had only 2 unique values which is similar to our output variable. 
+
 ## Summary
-Results from these models are very similar in accuracy ranging from 70% - 73%. The Alternate Model 2 which has the least number of categorical variables, and the lowest accuracy at 70%. Howeve may prove to beneficial as it provides a simplier explanation as to what are the predictable factors in successful business.
+Results from these models are very similar in accuracy ranging from 70% - 73%. The Alternate Model 2 and the lowest accuracy at 70%. However, Alternate Model 2 had the least number of categorical variables, which may prove to beneficial as it provides a simplier explanation as to what are the predictable factors in successful business.
